@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "9bc26fd8-2b39-4d60-8a4a-3cae3320a3d2",
+		"name": "auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47947331",
+		"_collection_link": "https://ahmed-ramadan-s-team.postman.co/workspace/Team-Workspace~4f373937-2c60-429a-81eb-9c89f589fa35/collection/47947331-9bc26fd8-2b39-4d60-8a4a-3cae3320a3d2?action=share&source=collection_link&creator=47947331"
+	},
+	"item": [
+		{
+			"name": "signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"alima3lol\",\r\n  \"email\": \"ElAhly@gmail.com\",\r\n  \"password\": \"987654321\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"alima3lol\",\r\n  \"email\": \"ElAhly@gmail.com\",\r\n  \"password\": \"987654321\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
